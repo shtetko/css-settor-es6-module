@@ -1,0 +1,17 @@
+{
+    "name": "css-settor-es6-lib",
+    "version": "1.0.0",
+    "description": "Styling css to html from JavaScript",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel src -d lib",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Shine Htet Ko",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.13.0",
+        "@babel/core": "^7.13.8",
+        "@babel/preset-env": "^7.13.9"
+    }
+}
